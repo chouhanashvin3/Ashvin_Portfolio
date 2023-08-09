@@ -313,16 +313,24 @@ h2 {
   left: -250px;
   transition: 0.5s ease;
 }
+.project-description button {
+	background: #a8858fe0;
+	border-radius: 15px;
+	width:200px;
+}
+.project-description button a{
+	color:white;
+}
 
 .project-tile:hover .overlay {
   width: 100%;
-  cursor: pointer;
+  
   transition: 0.5s ease;
 }
 
 .project-tile:hover .project-description {
   left: 0;
-  cursor: pointer;
+ 
   transition: 0.5s ease;
 }
 
@@ -364,6 +372,21 @@ h2 {
 .timeline-item {
   margin: 50px 0;
 }
+.certi {
+ 
+    position: absolute;
+   
+    background-color:  #3b3b3b;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:5px;
+    min-height:15px; 
+    min-width: 80px;
+  
+}
+
+
 #contact.contact {
 	display: grid;
     grid-template-columns:repeat(2,1fr);
@@ -407,6 +430,11 @@ h2 {
 .secText h2{
 	font-size: 3em;
 	text-align: center;
+}
+.contact a{
+	text-align: center;
+	
+	padding-top:70px;
 }
 
 
